@@ -16,7 +16,9 @@ body {
 	min-height: 100vh;
 	font-family: 'PT Sans Narrow', sans-serif;
 }
-
+a  {
+	color: var(--color3);
+}
 .open {
 	position: fixed;
 	top: 0;
@@ -369,4 +371,18 @@ article:nth-child(even) {
 		transform: translateX(0);
 		opacity: 1;
 	}
+}
+
+.footer {
+    background: var(--color1);
+	font-weight: 400;
+    font-size: 1.2em;
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+    color: var(--color2);
+    height: 80px;
 }
